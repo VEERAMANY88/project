@@ -1,0 +1,23 @@
+
+.login-form
+{
+    margin-top: 300px;
+    margin-left: 50px;
+    margin-right: 50px; 
+    height: 30px;
+}
+.login-fields{
+    width: 100%;
+}
+:host {
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+  }
+button{
+    margin-left: 55px;
+    font-weight: bold;
+    width: 150px;
+}
