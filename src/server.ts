@@ -7,6 +7,10 @@ import {
 import express from 'express';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import 'zone.js/node';
+// import { bootstrapApplication } from '@angular/platform-server';
+
+// bootstrapApplication(AppComponent);
 
 const serverDistFolder = dirname(fileURLToPath(import.meta.url));
 const browserDistFolder = resolve(serverDistFolder, '../browser');
